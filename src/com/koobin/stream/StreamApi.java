@@ -52,6 +52,7 @@ public class StreamApi {
         System.out.println("두 수업 목록에 들어있는 모든 아이디 출력");
         binEvents.stream()
                 //.flatMap(list -> list.stream())
+                // 입풋은 하나이지만 아웃풋은 여러개인 상황이 생길 때
                 .flatMap(Collection::stream)
                 .forEach(oc-> System.out.println(oc.getId()));
         System.out.println("----------------");

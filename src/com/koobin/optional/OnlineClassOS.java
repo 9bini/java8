@@ -2,7 +2,7 @@ package com.koobin.optional;
 
 import java.util.Optional;
 
-public class OnlineClass1 {
+public class OnlineClassOS {
 
     private Integer id;
 
@@ -51,7 +51,7 @@ public class OnlineClass1 {
         this.progress = progress;
     }
 
-    public OnlineClass1(Integer id, String title, boolean closed) {
+    public OnlineClassOS(Integer id, String title, boolean closed) {
         this.id = id;
         this.title = title;
         this.closed = closed;

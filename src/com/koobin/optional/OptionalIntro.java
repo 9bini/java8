@@ -8,14 +8,14 @@ import java.util.OptionalInt;
 
 public class OptionalIntro {
     public static void main(String[] args) {
-        List<OnlineClass1> springClasses = new ArrayList<>();
-        springClasses.add(new OnlineClass1(1, "spring boot", true));
-        springClasses.add(new OnlineClass1(2, "spring data jpa", true));
-        springClasses.add(new OnlineClass1(3, "spring mvc", false));
-        springClasses.add(new OnlineClass1(4, "spring core", false));
-        springClasses.add(new OnlineClass1(5, "rest api development", false));
+        List<OnlineClassOS> springClasses = new ArrayList<>();
+        springClasses.add(new OnlineClassOS(1, "spring boot", true));
+        springClasses.add(new OnlineClassOS(2, "spring data jpa", true));
+        springClasses.add(new OnlineClassOS(3, "spring mvc", false));
+        springClasses.add(new OnlineClassOS(4, "spring core", false));
+        springClasses.add(new OnlineClassOS(5, "rest api development", false));
 
-        OnlineClass1 spring_boot = new OnlineClass1(1, "spring boot", true);
+        OnlineClassOS spring_boot = new OnlineClassOS(1, "spring boot", true);
 
         /*
         // 기본적으로 아래와 같이 null 체크
