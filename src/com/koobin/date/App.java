@@ -95,7 +95,7 @@ public class App {
 
         // 예전 => 최신 API
         ZoneId zoneId = TimeZone.getTimeZone("PST").toZoneId();
-        
+
         // 최신 => 예전 API
         TimeZone timeZone = TimeZone.getTimeZone(zoneId);
     }
