@@ -9,6 +9,7 @@ public class ParallelSort {
         /**
          * 알고리즘 효율은 같지만 속도는 좀 더 빠르게 정렬을 할 수 있다.
          */
+        // test
         int size = 1500;
         int[] numbers = new int[size];
         Random random = new Random();
